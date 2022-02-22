@@ -6,7 +6,7 @@
 }
 
 .card label {
-    font-size: 18px;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -34,12 +34,13 @@
     display: inline-block;
     border: none;
     border-radius: 4px;
-    background-color: rgb(82, 82, 235);
+    background-color: rgb(13, 126, 28);
     cursor: pointer;
     text-transform: uppercase;
 }
 
 .btn-enviar:hover {
-    color: black;
-    background-color: rgb(13, 171, 219);
+    color: rgb(0, 0, 0);
+    background-color: rgb(64, 194, 71);
+    font-weight: 700;
 }
