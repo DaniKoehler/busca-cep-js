@@ -7,6 +7,8 @@
 
 .card label {
     font-size: 20px;
+    font-weight: 900;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -42,5 +44,5 @@
 .btn-enviar:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(64, 194, 71);
-    font-weight: 700;
+    font-weight: 900;
 }
