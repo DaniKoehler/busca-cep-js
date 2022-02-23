@@ -10,10 +10,23 @@
 </head>
 <body>
     <div class="card">
+        <img src="imagens/imagemcep.jpg" alt="imagemtopo" style="width: 100%; height: auto;">
         <div class="formulario">
-    <label>CEP</label>
-    <input type="text" name="txtCep" id="txtCep" />
-    <button class="btn-enviar" onclick="enviarCep()">Consultar</button>
+            <label><p style="text-align: center;">CEP</p></label>
+            <input type="text" name="txtCep" id="txtCep" />
+            <button class="btn-enviar" onclick="enviarCep()">Consultar</button>
+            <ul>
+                <li>CEP: <b id="cep"></b></li>
+                <li>Logradouro: <b id="logradouro"></b></li>
+                <li>Complemento: <b id="complemento"></b></li>
+                <li>Bairro: <b id="bairro"></b></li>
+                <li>Localidade: <b id="localidade"></b></li>
+                <li>UF: <b id="uf"></b></li>
+                <li>IBGE: <b id="ibge"></b></li>
+                <li>GIA: <b id="gia"></b></li>
+                <li>DDD: <b id="gia"></b></li>
+                <li>Siafi: <b id="siafi"></b></li>
+            </ul>
         </div>
     </div>
 </body>
